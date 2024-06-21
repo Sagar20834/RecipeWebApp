@@ -12,14 +12,14 @@ const Navigation = () => {
           </p>
         </div>
         <div className="menus flex justify-center items-center mr-12">
-          <div className="menuslist flex   gap-5   text-xl ">
+          <div className=" hidden menuslist sm:flex  sm:gap-5   sm:text-lg ">
             <a href="/">Home</a>
             <a href="/">Recipe</a>
             <a href="/">Add Recipe</a>
             <a href="/">Blog </a>
             <a href="/">About Us</a>
           </div>
-          <div className="buttonslist flex   min-h-10 gap-8 ml-32  shrink-1">
+          <div className=" hidden  sm:flex   min-h-10 gap-8 ml-32  shrink-1">
             <button className="bg-[#E7EDE7]  min-w-32 rounded-lg">
               Log in
             </button>
